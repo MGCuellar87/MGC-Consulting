@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MGC Consulting</title>
+<meta name="description" content="MGC Consulting helps organizations improve operations, strengthen reporting, and make better use of Salesforce through practical, sustainable system design.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #153A5B;
+    --maroon: #83122C;
+    --white: #ffffff;
+    --light: #f5f6f8;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: var(--navy);
+    line-height: 1.6;
+    background: var(--white);
+  }
+  header {
+    background: var(--white);
+    border-bottom: 3px solid var(--navy);
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .brand { display: flex; align-items: baseline; gap: .4rem; }
+  .brand .mg {
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: var(--maroon);
+    letter-spacing: .02em;
+  }
+  .brand .rest {
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: var(--navy);
+    letter-spacing: .02em;
+  }
+  nav a {
+    color: var(--navy);
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-weight: 700;
+    font-size: .95rem;
+  }
+  nav a:hover { color: var(--maroon); }
+  .hero {
+    background: linear-gradient(135deg, var(--navy) 0%, #0e2b45 100%);
+    color: var(--white);
+    text-align: center;
+    padding: 6rem 2rem;
+  }
+  .hero h1 {
+    font-weight: 700;
+    font-size: clamp(1.8rem, 4.5vw, 3rem);
+    max-width: 850px;
+    margin: 0 auto 2rem;
+    line-height: 1.25;
+  }
+  .hero .cta {
+    display: inline-block;
+    background: var(--maroon);
+    color: var(--white);
+    padding: .85rem 2rem;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 4px;
+  }
+  .hero .cta:hover { filter: brightness(1.15); }
+  .accent-bar { height: 6px; background: var(--maroon); }
+  section { padding: 4rem 2rem; max-width: 900px; margin: 0 auto; }
+  section h2 {
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: var(--navy);
+  }
+  .alt { background: var(--light); max-width: none; }
+  .alt > * { max-width: 900px; margin-left: auto; margin-right: auto; }
+  footer {
+    background: var(--navy);
+    color: var(--white);
+    text-align: center;
+    padding: 2rem;
+    font-size: .9rem;
+  }
+  footer a { color: var(--white); }
+</style>
+</head>
+<body>
+<header>
+  <div class="brand"><span class="mg">MG</span><span class="rest">CONSULTING</span></div>
+  <nav><a href="#contact">Contact</a></nav>
+</header>
+
+<div class="hero">
+  <h1>MGC Consulting helps organizations improve operations, strengthen reporting, and make better use of Salesforce through practical, sustainable system design.</h1>
+  <a class="cta" href="#contact">Contact Us</a>
+</div>
+<div class="accent-bar"></div>
+
+<section>
+  <h2>Contact</h2>
+  <p id="contact">Email: hello@mgcconsulting.com</p>
+</section>
+
+<footer>&copy; 2026 MGC Consulting. All rights reserved.</footer>
+</body>
+</html>
