@@ -185,21 +185,16 @@
   /* About */
   .about-grid {
     display: grid;
-    grid-template-columns: 260px 1fr;
+    grid-template-columns: 280px 1fr;
     gap: 3rem;
     align-items: center;
   }
-  .photo-placeholder {
-    width: 260px; height: 260px;
-    background: var(--grey);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--navy);
-    font-weight: 700;
-    text-align: center;
-    font-size: 0.9rem;
+  .profile-photo {
+    width: 280px;
+    aspect-ratio: 3 / 4;
+    border-radius: 6px;
+    object-fit: cover;
+    box-shadow: 0 2px 12px rgba(21,58,91,0.15);
   }
   .about-copy p { margin-bottom: 1.1rem; font-size: 1.05rem; }
   .about-quote {
@@ -420,7 +415,7 @@
     <img class="profile-photo" src="images/mark-cuellar.jpg" alt="Mark Cuellar">
     <div class="about-copy">
       <h2 class="section-title" style="text-align:left;">ABOUT MARK</h2>
-      <p>I'm a consultant, Salesforce administrator, and systems thinker based in Phoenix, Arizona.</p>
+      <p>I'm a consultant, Salesforce administrator, and systems thinker based in Topeka, Kansas.</p>
       <p>My work focuses on helping organizations improve visibility, strengthen accountability, and create practical solutions to operational challenges.</p>
       <p>Whether the challenge involves reporting, process improvement, automation, or system administration, the objective is the same:</p>
       <p class="about-quote">CREATE SYSTEMS PEOPLE CAN UNDERSTAND, TRUST, AND SUSTAIN.</p>
@@ -462,7 +457,7 @@
   <div class="location">Topeka, Kansas</div>
   <ul>
     <li><a href="mailto:mark@markcuellar.com">Email</a></li>
-    <li><a href="https://www.linkedin.com/in/markgcuellar/" target="_blank" rel="noopener">LinkedIn</a></li>
+    <li><a href="https://www.linkedin.com/in/markgcuellar" target="_blank" rel="noopener">LinkedIn</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
   <div class="copyright">&copy; MGC Consulting</div>
